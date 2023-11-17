@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Define a secret key for JWT
-const secretKey = 'your_secret_key';
+const secretKey = 'bro';
 
 // Load user data from JSON file
 let userData;
