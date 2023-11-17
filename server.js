@@ -8,6 +8,11 @@ const port = process.env.PORT || 3000;
 // Define a secret key for JWT
 const secretKey = 'bro';
 
+//define default route
+app.get('/', (req, res) =>{
+  res.send('hello world');
+}
+        
 // Load user data from JSON file
 let userData;
 try {
