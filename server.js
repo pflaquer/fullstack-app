@@ -11,7 +11,7 @@ const secretKey = 'bro';
 //define default route
 app.get('/', (req, res) =>{
   res.send('hello world');
-}
+});
         
 // Load user data from JSON file
 let userData;
